@@ -83,7 +83,7 @@
 
  }
 
- link {
+ #link {
      position: absolute;
      bottom: 30px;
  }
