@@ -14,7 +14,7 @@
  onMount(() => {
      params = new URLSearchParams(window.location.search);
      knownOpts = params.get("knownOptions").split(",");
-     available.push(...knownOpts);
+     present.push(...knownOpts);
      console.log(knownOpts);
  });
 
@@ -35,7 +35,7 @@
 
 </script>
 <div class="list">
-    <h1>The usual suspects:</h1>
+    <h1>Available options:</h1>
     {#each available as item (item)}
         <button
             animate:flip
