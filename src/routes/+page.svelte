@@ -59,7 +59,7 @@
 <!-- <iframe title="The mighty wheel"
      id="theiframe"
      src="{iframeSrc}"></iframe> -->
-<div><a href="{iframeSrc}" target="_blank">{iframeSrc}</a></div>
+<div id="link"><a href="{iframeSrc}" target="_blank">{iframeSrc}</a></div>
 <style>
  button {
 	 background-color: cornflowerblue;
@@ -81,5 +81,10 @@
      width: 900px;
      height:900px;
 
+ }
+
+ link {
+     position: absolute;
+     bottom: 30px;
  }
 </style>
